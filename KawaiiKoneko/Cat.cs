@@ -1,3 +1,5 @@
+using System;
+    
 namespace KawaiiKoneko
 {
     public class Cat
