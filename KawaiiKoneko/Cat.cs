@@ -1,5 +1,5 @@
 using System;
-    
+
 namespace KawaiiKoneko
 {
     public class Cat
@@ -10,7 +10,18 @@ namespace KawaiiKoneko
         private int _energy;
         private MoodType mood;
 
+        /* Cat constructor*/
+        public Cat(string name, HungryLvl hungry, int energy, MoodType mood)
+        {
+            this.name = name;
+            this.hungry = hungry;
+            this._energy = _energy;
+            this.mood = mood;
+        }
+
         /*Cat actions*/
+        public int CatEnergy() => Energy;
+
         public void Mew()
         {
             Console.WriteLine("Nyahh!!");
